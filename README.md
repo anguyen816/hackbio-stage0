@@ -1,7 +1,7 @@
 # HackBio Stage 0
 
-My submission for Stage 0. Linux and Bash scripting, plus installing
-bioinformatics software.
+My submission for Stage 0. Linux and Bash scripting, plus setting up a
+conda environment with bioinformatics tools.
 
 ## Files
 
@@ -24,10 +24,21 @@ Task 12: lexA, listed twice
 
 ## Project 2 notes
 
-I created an environment called funtools.
+I installed Miniconda and created an environment called funtools.
+
+Tools installed:
+- figlet
+- bwa
+- blast
+- samtools
+- bedtools
+- spades
+- bcftools
+- fastp
+- multiqc
 
 Task 4: I installed figlet with apt-get. It was not available in
 bioconda or conda-forge. The task said conda or apt-get, so either
-one works.
+one works. Everything else came from the bioconda channel.
 
-All 13 tools installed. I checked with conda list.
+All 13 tasks completed. I checked the installs with conda list.
